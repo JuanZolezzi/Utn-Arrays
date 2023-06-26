@@ -8,9 +8,10 @@ const palabras = ['pepe', 'buen dia', 'hola', 'soy juan', 'hola']
 
 const palabras = ['pepe', 'buen dia', 'hola', 'soy juan', 'hola'];
 let contador = 0;
+let saludo = 'hola'
 
 for (let i = 0; i < palabras.length; i++) {
-    if (palabras[i] === 'hola') {
+    if (palabras[i] === saludo) {
     contador++;
     }
 }
@@ -71,3 +72,15 @@ if (caracteres < 20) {
 } else {
     alert("El usuario es recurrente");
 }
+
+
+//practicando Login
+
+let nombre = prompt ('Ingrese su Nombre:')
+let edad = prompt ('Ingrese su Edad:')
+
+if (nombre == 'Juan' && edad == 20) {
+    alert('Bienvenido Juan al Sistema.');
+} else
+    alert ('Bienvenido al Sistema');
+
