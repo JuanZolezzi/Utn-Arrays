@@ -62,7 +62,7 @@ const mensajes = ['hola a todos', 'buenas', 'me gusta JS']
 let caracteres = 0
 
 for (let i = 0; i < mensajes.length; i++) {
-    caracteres += mensajes[i].length;
+    caracteres = caracteres + mensajes[i].length;
 }
 
 if (caracteres < 20) {
