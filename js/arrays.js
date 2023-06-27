@@ -34,7 +34,7 @@ const notas = [8, 9, 4];
 let suma = 0;
 
 for (let i = 0; i < notas.length; i++) {
-    suma += notas[i];
+    suma = suma + notas[i];
 }
 
 const promedio = suma / notas.length;
